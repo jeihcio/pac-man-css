@@ -20,7 +20,8 @@ body {
 .pac {
     background-color: #fdfc01;
     height: 170px;
-    width: 135px;
+    width: 170px;
+    border-radius: 50%;
 }
 
 .ghost {
