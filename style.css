@@ -35,6 +35,27 @@ body {
     height: 80%;
     width: 100%;
     border-radius: 50% 50% 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ghost>.body>.eye {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    margin: 0 1px;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.ghost>.body>.eye>span {
+    background-color: #312cce;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 4px 5px;
 }
 
 .ghost>.feet {
