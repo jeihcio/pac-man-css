@@ -3,3 +3,28 @@ body {
     padding: 0;
     background-color: #000000;
 }
+
+#main {
+    position: absolute;
+    width: 720px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    padding: 0px 15px;
+}
+
+.pac {
+    background-color: #fdfc01;
+    height: 170px;
+    width: 135px;
+}
+
+.ghost {
+    background-color: #ee2801;
+    height: 180px;
+    width: 155px;
+}
