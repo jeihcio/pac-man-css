@@ -22,6 +22,15 @@ body {
     height: 170px;
     width: 170px;
     border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+    transform: rotate(50deg);
+}
+
+.pac>.mouth {
+    background-color: #000000;
+    height: 50%;
+    width: 50%;
 }
 
 .ghost {
