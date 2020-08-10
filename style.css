@@ -38,6 +38,13 @@ body {
     width: 148px;
     flex-direction: column;
     --bg-color-ghost: #ee2801;
+    animation: floating 2s infinite ease-in-out;
+}
+
+@keyframes floating {
+    50% {
+        transform: translateY(-20%);
+    }
 }
 
 .ghost>.body {
