@@ -24,7 +24,26 @@ body {
 }
 
 .ghost {
-    background-color: #ee2801;
     height: 180px;
-    width: 155px;
+    width: 150px;
+    flex-direction: column;
+}
+
+.ghost>.body {
+    background-color: #ee2801;
+    height: 80%;
+    width: 100%;
+    border-radius: 50% 50% 0 0;
+}
+
+.ghost>.feet {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.ghost>.feet>span {
+    background-color: #ee2801;
+    flex: 1;
+    height: 100%;
 }
